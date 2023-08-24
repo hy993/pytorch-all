@@ -3,6 +3,7 @@ import torch.nn as nn
 import torch.nn.functional as F
 
 class model_test(nn.Module):
+    # test
     def __init__(self):
         super(model_test, self).__init__()
         self.conv1_1 = nn.Conv2d(1, 64, kernel_size = 1, stride = 1)
